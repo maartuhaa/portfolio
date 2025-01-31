@@ -1,0 +1,122 @@
+body {
+    background-image: url('./backround/images.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.boxblue {
+    display: flex;
+    background-color: rgb(148, 190, 230);
+    width: auto;
+    height: 15vh;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.OSLOLACROSSE {
+    font-size: 17px;
+    font-weight: bold;
+    color: black;
+    text-shadow: 2px 2px 5px gray;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.blimed {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    text-shadow: 2px 2px 5px gray;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.dropbutton {
+    font-size: 30px;
+    cursor: pointer;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.dropbutton:hover {
+    background-color: rgb(148, 190, 230);
+    cursor: pointer;
+}
+
+.nav {
+    position: relative;
+    display: block;
+}
+
+button {
+    background-color: #000;
+    color: #D3A187;
+    border-radius: 50%;
+    top: 7vw;
+    left: 5vw;
+    width: 3.5vw;
+    height: 3.5vw;
+    cursor: pointer;
+    font-size: 2em;
+}
+
+.drop-down {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    min-width: 180px;
+    display: none;
+    right: 4px;
+    left: auto;
+}
+
+.drop-down a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px;
+    display: block;
+}
+
+.drop-down a:hover {
+    background-color: rgb(148, 190, 230);
+}
+
+.nav:hover .drop-down {
+    display: block;
+}
+
+.hvaer {
+    display: flex;
+    justify-content: center;
+    font-size: 15px; 
+}
+
+.logo {
+    display: flex;
+    margin: 7px 7px 7px 0; 
+}
+
+
+img {
+    float: left;
+    margin: 5px;
+    height:200px;
+}
+
+p {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+}
+
